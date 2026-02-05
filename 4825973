@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Beach Indonesia</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fef8fa;
+            animation: fadeIn 1s ease-in;
+        }
+
+        header {
+            background-color: #e1aebd;
+            color: white;
+            padding: 22px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 18px;
+        }
+
+        section {
+            background-color: #ffffff;
+            padding: 22px;
+            margin-bottom: 22px;
+            border-radius: 12px;
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        .photo-card {
+            border-radius: 10px;
+            margin-bottom: 15px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .photo-card:hover {
+            transform: scale(1.02);
+        }
+
+        img {
+            width: 100%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #d897ad;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f5c6d3;
+        }
+
+        footer {
+            background-color: #e1aebd;
+            color: white;
+            text-align: center;
+            padding: 16px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Wisata Pink Beach Komodo</h1>
+    <nav>
+        <a href="#deskripsi">Deskripsi</a>
+        <a href="#fasilitas">Fasilitas</a>
+        <a href="#rencana">Rencana</a>
+        <a href="#harga">Harga</a>
+        <a href="#media">Media</a>
+    </nav>
+</header>
+
+<main>
+
+<section id="deskripsi">
+    <h2>Deskripsi Pink Beach</h2>
+    <p>
+        <strong>Pink Beach</strong> adalah salah satu pantai berpasir merah muda yang langka di dunia,
+        terletak di kawasan <em>Taman Nasional Komodo</em>, Nusa Tenggara Timur, Indonesia. Pasir
+        berwarna merah muda ini terbentuk dari campuran karang merah dan pasir putih, menciptakan
+        <mark>pemandangan yang sangat estetis dan unik.</mark>
+    </p>
+</section>
+
+<section id="fasilitas">
+    <h2>Fasilitas dan Aktivitas</h2>
+    <ul>
+        <li>Snorkeling di terumbu karang</li>
+        <li>Berjemur dan bermain pasir pink</li>
+        <li>Perahu wisata</li>
+        <li>Spot foto pemandangan alam</li>
+    </ul>
+</section>
+
+<section id="rencana">
+    <h2>Rencana Perjalanan</h2>
+    <ol>
+        <li>Berangkat dari Labuan Bajo</li>
+        <li>Naik kapal menuju Pink Beach</li>
+        <li>Snorkeling & foto di sekitar pantai</li>
+        <li>Kembali ke dermaga</li>
+    </ol>
+</section>
+
+<section id="media">
+    <h2>Media Wisata</h2>
+
+    <!-- YouTube video embed -->
+    <iframe width="100%" height="315"
+        src="https://www.youtube.com/embed/K7WhvIlu1U4"
+        title="Video Pink Beach Komodo"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+        
+        <h3>Suasana di Pink Beach</h3>
+
+    <div class="photo-card">
+        <img src="https://static.promediateknologi.id/crop/13x273:713x1099/0x0/webp/photo/p2/74/2024/02/25/Screenshot_20240225-210424_Instagram-582019303.jpg"
+             alt="Pink Beach Komodo Indonesia">
+    </div>
+
+    <div class="photo-card">
+        <img src="https://mbtech.info/asset/uploads/gallery/2025/08/pink-beach-2.jpg"
+             alt="Suasana pantai Pink Beach Komodo">
+    </div>
+
+    <h3>Suara Alam Pantai</h3>
+<audio controls loop>
+    <source src="Suara Pantai dan Burung Camar.mp3"
+            type="audio/mpeg">
+    Browser Anda tidak mendukung tag audio.
+</audio>
+
+</section>
+
+<section id="harga">
+    <h2>Estimasi Harga Wisata</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Kategori</th>
+                <th>Harga Tiket Masuk</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Wisatawan Domestik</td>
+                <td>Rp10.000</td>
+            </tr>
+            <tr>
+                <td>Wisatawan Mancanegara</td>
+                <td>Rp50.000</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <p>
+        Lokasi: 
+        <a href="https://maps.google.com/?q=Pink+Beach+Komodo" target="_blank">
+            Google Maps Pink Beach
+        </a>
+    </p>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Wisata Pink Beach Komodo</p>
+</footer>
+<!-- 
+REFLEKSI:
+
+1. <div> digunakan untuk membungkus elemen tanpa makna khusus, sedangkan <section> digunakan
+   untuk menandai bagian konten agar struktur halaman lebih rapi.
+
+2. Atribut alt pada <img> berfungsi untuk memberi keterangan gambar dan membantu jika gambar
+   tidak muncul atau dibaca oleh screen reader.
+
+3. Meta viewport berfungsi agar tampilan website menyesuaikan ukuran layar perangkat.
+-->
+</body>
+</html>
