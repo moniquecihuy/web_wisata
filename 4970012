@@ -1,0 +1,62 @@
+body{
+font-family: Arial, sans-serif;
+background: linear-gradient(to right,#ff9ecf,#ffc3e0);
+margin:0;
+padding:0;
+}
+
+.container{
+width:80%;
+max-width:600px;
+margin:40px auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+h1{
+text-align:center;
+color:#ff4fa3;
+}
+
+h2{
+margin-top:20px;
+color:#ff4fa3;
+}
+
+label{
+display:block;
+margin-top:10px;
+font-weight:bold;
+}
+
+input, select{
+width:100%;
+padding:10px;
+margin-top:5px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+width:auto;
+margin-right:5px;
+}
+
+button{
+width:100%;
+padding:12px;
+background:#ff4fa3;
+border:none;
+color:white;
+font-size:16px;
+border-radius:8px;
+margin-top:20px;
+cursor:pointer;
+}
+
+button:hover{
+background:#e63e8f;
+}
